@@ -1,3 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+span {
+  @apply text-[#03045E];
+}
+
+.stripes{
+  background: repeating-linear-gradient(
+  45deg,
+  #F5EE84,
+  #F5EE84 10px,
+  #FBF8CC 10px,
+  #FBF8CC 20px
+);
+}
+
