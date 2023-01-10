@@ -7,11 +7,11 @@ const Intro = () => {
         <div className='flex flex-col '>
 
             <span className='text-[1.75rem]'> Helloo, I&apos;m Ahmad </span>
-            <div className='flex flex-col'>
+            <div className='flex flex-col animate-pulse'>
                 <span className='font-bold text-7xl  '>Front-end</span>
                 <span className='font-bold text-7xl  '>Developer</span>
-            </div>
-            <span className='text-[1.75rem]'>woooooooo</span>
+            </div> 
+            <span className='text-[1.75rem] animate-bounce '>woooooooo</span>
             <button 
             className=' w-40 h-14 font-Poppins  bg-[#F5EE84] stripes border 
             hover:scale-110 transition-all duration-300 active:scale-75
