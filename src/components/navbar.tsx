@@ -10,9 +10,9 @@ const Navbar = () => {
             <a className='text-[#03045E]' href="#">About</a>
         </div>
         <div className='flex items-center gap-2'>
-            <a href="#" className='text-[#03045E]'><AiOutlineTwitter  className=' w-6 h-6' /></a>
-            <a href="#" className='text-[#03045E]'><AiOutlineInstagram className=' w-6 h-6' /></a>
-            <a href="#" className='text-[#03045E]'><AiOutlineLinkedin className=' w-6 h-6'/></a>
+            <a href="https://twitter.com/So8os_2000" className='text-[#03045E]' rel="noreferrer" target="_blank" ><AiOutlineTwitter  className=' w-6 h-6' /></a>
+            <a href="https://www.instagram.com/don_so8os/" className='text-[#03045E]' rel="noreferrer" target="_blank"><AiOutlineInstagram className=' w-6 h-6' /></a>
+            <a href="https://www.linkedin.com/in/ahmad-othman-422117172/" className='text-[#03045E]' rel="noreferrer" target="_blank"><AiOutlineLinkedin className=' w-6 h-6'/></a>
         </div>
 
 
