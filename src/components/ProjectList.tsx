@@ -19,7 +19,10 @@ const ProjectList = () => {
             name={project.title} 
             image={project.image} 
             description={project.description} 
-            status={project.status} link={project.link} />
+            status={project.status} 
+            link={project.link}
+            github={project.github}
+             />
             </>
           ))
         }
