@@ -1,5 +1,15 @@
 import React from 'react'
-export const ProjectCard = ( props) => {
+
+interface projectCardProps{
+  name: string;
+  image: string;
+  description: string;
+  status: string;
+}
+
+
+
+export const ProjectCard = ( props:projectCardProps) => {
   return (
     <div className=' flex flex-col w-[23rem] h-96 rounded-md gap-3 hover:scale-110 transition-all duration-500  '>
         <div>
