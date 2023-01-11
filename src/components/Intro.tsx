@@ -2,8 +2,8 @@ import React from 'react'
 
 const Intro = () => {
   return (
-    <div className='flex flex-col-reverse justify-center items-center mb-10
-    md:flex-row gap-12 mb-96 '>
+    <div className='flex flex-col-reverse justify-center items-center mb-10 
+    md:flex-row gap-12  '>
         <div className='flex flex-col '>
 
             <span className='text-[1.75rem]'> Helloo, I&apos;m Ahmad </span>
