@@ -10,7 +10,7 @@ const Home: NextPage = () => {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 100);
+    }, 2500);
   }, []);
 
   
