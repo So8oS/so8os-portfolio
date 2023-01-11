@@ -8,6 +8,9 @@ module.exports = {
       },
       colors: {
         darkBlue: "#03045E",
+        lightYellow: "#FBF8CC",
+        darkYellow: "#F5EE84",
+        darkBrown: "#474306",
       },
       screens: {
         sm: "640px",
