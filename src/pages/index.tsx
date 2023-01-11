@@ -10,7 +10,7 @@ const Home: NextPage = () => {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 2600);
+    }, 100);
   }, []);
 
   
@@ -19,7 +19,7 @@ const Home: NextPage = () => {
 {loading ? (
 
 
-  <div className="body ">
+  <div className=" body ">
     <div className="content">
     <h2 className="text_shadows  ">hey</h2>
     </div>

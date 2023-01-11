@@ -5,14 +5,24 @@ import { projects } from './projects'
 const ProjectList = () => {
   return (
     <>
-    <span className='text-darkBlue text-7xl font-extrabold'>
-      Projects
-    </span>
-      <div className='mt-16 flex flex-col justify-center items-center gap-5  md:flex-row flex-wrap '>
+    <div className='flex justify-center items-center  '>
+      <span className='text-6xl font-bold md:text-7xl '>
+        Projects
+      </span>
+    </div>
+      <div className='mt-16 flex flex-col justify-center items-center gap-5  md:flex-row md:flex-wrap '>
         {
           projects.map((project) => (
             <>
-            <ProjectCard key={project.id} name={project.title} image={project.image} description={project.description} status={project.status} />
+            <ProjectCard 
+            key={project.id} 
+            name={project.title} 
+            image={project.image} 
+            description={project.description} 
+            status={project.status} 
+            link={project.link}
+            github={project.github}
+             />
             </>
           ))
         }

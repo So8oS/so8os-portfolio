@@ -5,6 +5,8 @@ export const projects = [
             description :"A tool for uploading and copying images to clipboard.",
             image :  "/image-uploader.png",
             status :  "Finished",
+            link : "https://image-uploader-ahmad.vercel.app/",
+            github : "https://github.com/So8oS/image-uploader-next"
         },
         {
             id : 1,
@@ -12,13 +14,18 @@ export const projects = [
             description :"Generates random quotes on button click.",
             image :  "/quote-generator.png",
             status :  "Finished",
+            link : "https://ahmadothman-quotegenerator.netlify.app/",
+            github : "https://github.com/So8oS/quotes"
+
         },
         {
             id : 2,
             title :  "Le Khalil Le Cookies",
             description :"A website for my friends cookie bussines that he sadly no longer runs(pixel art themed).", 
             image :  "/lekhalilecookies.png",
-            status :  "I dont really know if im finishing this at this point.",
+            status :  "I dont really know.",
+            link : "",
+            github : ""
         },
         {
             id : 3,
@@ -26,6 +33,9 @@ export const projects = [
             description :" Just a cute page with cat pics that I made to practice tailwind css.",
             image :  "/meow.png",
             status :  "Finished",
+            link : "https://meooww.netlify.app/",
+            github : "https://github.com/So8oS/tailwind_practice_meoowww"
+
         },
        
       ];
