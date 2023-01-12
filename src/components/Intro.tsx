@@ -3,7 +3,7 @@ import React from 'react'
 const Intro = () => {
   return (
     <div className='flex flex-col-reverse justify-center items-center mb-10 
-    md:flex-row gap-12  '>
+    md:flex-row gap-16  '>
         <div className='flex flex-col '>
 
             <span className=' text-[1.5rem] md:text-[1.75rem]'> Helloo, I&apos;m Ahmad </span>
@@ -18,7 +18,11 @@ const Intro = () => {
             border-darkBrown  text-darkBrown font- shadow-2xl rounded-xl mt-6' >Resume</button>
         
         </div>     
-        <div className="  w-72 border-white md:w-[22rem] " style={{ clipPath: 'polygon(50% 0%, 80% 10%, 100% 1%, 96% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%)' }} >
+        <div className="  w-72 border-white md:w-[22rem] " style={{ clipPath: 
+          // 'polygon(50% 0%, 80% 10%, 100% 1%, 96% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%)'
+          'polygon(50% 0, 80% 10%, 100% 0, 100% 75%, 50% 100%, 0 75%, 0% 25%, 0 0, 20% 10%)'
+          
+          }} >
             <img className='' src="/pic.jpg" alt="ahmad" />
         </div>   
     </div>

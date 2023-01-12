@@ -6,6 +6,7 @@ module.exports = {
       fontFamily: {
         Poppins: ["Poppins", "sans-serif"],
       },
+      darkMode: "media",
       colors: {
         darkBlue: "#03045E",
         lightYellow: "#FBF8CC",

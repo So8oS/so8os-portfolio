@@ -3,6 +3,7 @@ import Navbar from "../components/navbar";
 import Intro from "../components/Intro";
 import ProjectList from "../components/ProjectList";
 import React, { useState, useEffect } from 'react';
+import { Contactus } from "../components/ContactUs";
 
 const Home: NextPage = () => {
   const [loading, setLoading] = useState(false);
@@ -10,7 +11,7 @@ const Home: NextPage = () => {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 2500);
+    }, 100);
   }, []);
 
   
@@ -27,10 +28,11 @@ const Home: NextPage = () => {
 
 ) : ( 
 
-  <div className="bg-lightYellow min-h-screen px-10 py-9 test ">
+  <div className="bg-lightYellow min-h-screen px-10 py-9 test flex flex-col items-center  ">
         <Navbar/>
         <Intro  />
         <ProjectList/>
+        <Contactus />
       </div>
       ) }
       

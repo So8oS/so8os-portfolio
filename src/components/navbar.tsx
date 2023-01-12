@@ -3,7 +3,7 @@ import {AiOutlineInstagram, AiOutlineLinkedin, AiFillGithub} from 'react-icons/a
 
 const Navbar = () => {
   return (
-    <div className='flex justify-between font-Poppins mb-12  md:mb-24'>
+    <div className='flex justify-between font-Poppins w-full mb-12  md:mb-24'>
         <span className='font-semibold' >Ahmad Othman</span>
         <div className='flex items-center gap-2'>
             <a href="https://twitter.com/So8os_2000" className='text-darkBlue' rel="noreferrer" target="_blank" ><AiFillGithub  className=' w-6 h-6' /></a>
