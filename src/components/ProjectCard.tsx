@@ -32,6 +32,7 @@ export const ProjectCard = ( props:projectCardProps) => {
 
         <div className='flex justify-center items-center gap-2'>
           <a className='hover:text-gray-500 ' href={props.github} target='_blank' rel="noreferrer"><AiFillGithub className='cursor-pointer  ' /></a>
+          <span>|</span>
           <a className='' href={props.link} >
           <span className='font-extrabold hover:text-gray-500' >browse</span>
         </a>
