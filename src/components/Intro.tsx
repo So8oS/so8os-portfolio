@@ -3,7 +3,17 @@ import React from 'react'
 const Intro = () => {
   return (
     <div className='flex flex-col-reverse justify-center items-center mb-10 
-    md:flex-row gap-16  '>
+    md:flex-row gap-16 md:mb-20 '
+    data-aos="fade-up"
+     data-aos-offset="200"
+     data-aos-delay="50"
+     data-aos-duration="1000"
+     data-aos-easing=" ease-in-out"
+     data-aos-mirror="true"
+     data-aos-once="true"
+     data-aos-anchor-placement="top-bottom"
+     
+    >
         <div className='flex flex-col '>
 
             <span className=' text-[1.5rem] md:text-[1.75rem]'> Helloo, I&apos;m Ahmad </span>

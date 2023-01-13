@@ -20,7 +20,16 @@ export const Contactus = () => {
     };
   
     return (
-     <div className=" flex flex-col justify-center items-center w-80 h-full md:w-[45.9375rem] mt-10  ">
+     <div className=" flex flex-col justify-center items-center w-80 h-full md:w-[45.9375rem] mt-10  "
+     data-aos="fade-up"
+     data-aos-offset="200"
+     data-aos-delay="50"
+     data-aos-duration="1000"
+     data-aos-easing=" ease-in-out"
+     data-aos-mirror="true"
+     data-aos-once="false"
+     data-aos-anchor-placement="top-bottom"
+     >
         <span  className=" text-5xl font-bold mb-10 ">Contact me</span>
          {/* @ts-ignore */}
         <form className="flex flex-col  items-center gap-12 " ref={form} onSubmit={sendEmail}>

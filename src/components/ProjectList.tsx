@@ -4,13 +4,9 @@ import { projects } from './projects'
 
 const ProjectList = () => {
   return (
-    <>
-    <div className='flex justify-center items-center  '>
-      <span className='text-6xl font-bold md:text-7xl '>
-        Projects
-      </span>
-    </div>
-      <div className='mt-16 flex flex-col justify-center items-center gap-5  md:flex-row md:flex-wrap '>
+    <div className='flex flex-col justify-center items-center  '>
+      <span className='text-6xl font-bold md:text-7xl '>Projects</span>
+      <div className='mt-16 flex flex-col justify-center items-center gap-5  md:flex-row md:flex-wrap'>
         {
           projects.map((project) => (
             <>
@@ -27,7 +23,7 @@ const ProjectList = () => {
           ))
         }
       </div>
-    </>
+    </div>
   )
 }
 

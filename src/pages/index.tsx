@@ -4,11 +4,14 @@ import Intro from "../components/Intro";
 import ProjectList from "../components/ProjectList";
 import React, { useState, useEffect } from 'react';
 import { Contactus } from "../components/ContactUs";
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const Home: NextPage = () => {
   const [loading, setLoading] = useState(false);
   useEffect(() => {
     setLoading(true);
+    AOS.init({once: true});
     setTimeout(() => {
       setLoading(false);
     }, 2500);
