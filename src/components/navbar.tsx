@@ -2,9 +2,11 @@ import React from 'react'
 import {AiOutlineInstagram, AiOutlineLinkedin, AiFillGithub} from 'react-icons/ai'
 import { MdDarkMode } from "react-icons/md";
 
+interface NavbarProps{
+  handleThemeSwitch: () => void;
+}
 
-
-const Navbar = (props) => {
+const Navbar = (props:NavbarProps) => {
   return (
     <div className='flex justify-between font-Poppins w-full mb-12  md:mb-24'>
         <span className='font-semibold' >Ahmad Othman</span>
