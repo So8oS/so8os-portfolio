@@ -2,9 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
+
+
+
 span {
   @apply text-[#03045E];
-  @apply font-Poppins
+  @apply font-Poppins;
+  @apply dark:text-[#FDECFB];
 }
 
 .stripes{
@@ -16,4 +20,18 @@ span {
   #FBF8CC 20px
 );
 }
+
+
+@layer utilities {
+  .stripes-dark{
+    background: repeating-linear-gradient(
+    45deg,
+    #232300,
+    #232300 10px,
+    #2F2C01 10px,
+    #2F2C01 20px
+  );
+  }
+}
+
 

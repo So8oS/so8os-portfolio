@@ -8,14 +8,37 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 const Home: NextPage = () => {
-  const [loading, setLoading] = useState(false);
+const [theme, setTheme] = React.useState("light");
+const [loading, setLoading] = useState(false);
   useEffect(() => {
     setLoading(true);
     AOS.init({once: true});
+
+    if(window.matchMedia('(prefers-color-scheme: dark)').matches){
+      setTheme('dark');
+    }
+    else {
+      setTheme('light');
+    }
+
     setTimeout(() => {
       setLoading(false);
     }, 2500);
   }, []);
+
+  useEffect(() => {
+    if (theme === "dark") {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
+    }
+  }, [theme]);
+
+  const handleThemeSwitch = () => {
+    setTheme(theme === "dark" ? "light" : "dark");
+  };
+
+
 
   
   return (
@@ -31,8 +54,8 @@ const Home: NextPage = () => {
 
 ) : ( 
 
-  <div className="bg-lightYellow min-h-screen px-10 py-9 test flex flex-col items-center  ">
-        <Navbar/>
+  <div className="bg-lightYellow dark:bg-[#232300] min-h-screen px-10 py-9 test flex flex-col items-center  ">
+        <Navbar handleThemeSwitch={handleThemeSwitch}/>
         <Intro  />
         <ProjectList/>
         <Contactus />
