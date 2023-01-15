@@ -55,7 +55,7 @@ const [loading, setLoading] = useState(false);
 ) : ( 
 
   <div className="bg-lightYellow dark:bg-[#232300] min-h-screen px-10 py-9 test flex flex-col items-center  ">
-        <Navbar handleThemeSwitch={handleThemeSwitch}/>
+        <Navbar theme={theme} handleThemeSwitch={handleThemeSwitch}/>
         <Intro  />
         <ProjectList/>
         <Contactus />
