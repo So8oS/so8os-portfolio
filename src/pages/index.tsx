@@ -6,6 +6,7 @@ import React, { useState, useEffect } from 'react';
 import { Contactus } from "../components/ContactUs";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Stack from "../components/Stack";
 
 const Home: NextPage = () => {
 const [theme, setTheme] = React.useState("light");
@@ -58,6 +59,7 @@ const [loading, setLoading] = useState(false);
         <Navbar theme={theme} handleThemeSwitch={handleThemeSwitch}/>
         <Intro  />
         <ProjectList/>
+        <Stack/>
         <Contactus />
       </div>
       ) }

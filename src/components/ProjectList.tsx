@@ -4,7 +4,7 @@ import { projects } from './projects'
 
 const ProjectList = () => {
   return (
-    <div className='flex flex-col justify-center items-center  '>
+    <div className='flex flex-col justify-center items-center mb-12 '>
       <span className='text-6xl font-bold md:text-7xl '>Projects</span>
       <div className='mt-16 flex flex-col justify-center items-center gap-5  md:flex-row md:flex-wrap'>
         {
