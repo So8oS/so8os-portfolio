@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/ban-ts-comment */
 import React from 'react'
 import { useRef } from 'react';
 import emailjs from '@emailjs/browser';
