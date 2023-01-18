@@ -22,13 +22,13 @@ const Stack = () => {
         <div className='mt-16 flex flex-wrap   justify-center items-center  gap-2 
         md: ' >
         
-            <img className=' w-32 md:w-44' src="/icons/react.svg" alt="React JS" />
-            <img className=' w-32 md:w-44' src="/icons/next.svg" alt="Next JS" />
-            <img className=' w-32 md:w-44' src="/icons/css.svg" alt="CSS" />
-            <img className=' w-32 md:w-44' src="/icons/tailwind.svg" alt="Tailwind CSS" />
-            <img className=' w-32 md:w-44' src="/icons/javascript.svg" alt="Javascript" />
-            <img className=' w-32 md:w-44' src="/icons/typescript.svg" alt="Typescript" />
-            <img className=' w-32 md:w-44' src="/icons/csharp.svg" alt="C#" />
+            <img className=' w-32 md:w-44' src="/Icons/react.svg" alt="React JS" />
+            <img className=' w-32 md:w-44' src="/Icons/next.svg" alt="Next JS" />
+            <img className=' w-32 md:w-44' src="/Icons/css.svg" alt="CSS" />
+            <img className=' w-32 md:w-44' src="/Icons/tailwind.svg" alt="Tailwind CSS" />
+            <img className=' w-32 md:w-44' src="/Icons/javascript.svg" alt="Javascript" />
+            <img className=' w-32 md:w-44' src="/Icons/typescript.svg" alt="Typescript" />
+            <img className=' w-32 md:w-44' src="/Icons/csharp.svg" alt="C#" />
         </div>
     </div>
   )
