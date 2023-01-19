@@ -30,7 +30,6 @@ export const ProjectCard = ( props:projectCardProps) => {
      >
         <div>
             <img className='rounded-md w-80 h-48' src={props.image} alt="" />
-            
         </div>
 
         <span className=''>{`Status: ${props.status}`}</span>

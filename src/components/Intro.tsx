@@ -1,5 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import React from 'react'
+import Link from 'next/link'
+
 
 const Intro = () => {
   return (
@@ -23,13 +25,15 @@ const Intro = () => {
                 <span className='text-6xl font-bold md:text-7xl  '>Developer</span>
             </div> 
             <span className=' animate-bounce text-[1.5rem] md:text-[1.75rem] '>woooooooo</span>
-            <button 
-            className=' w-40 h-14 font-Poppins focus:outline-none  bg-darkYellow stripes border 
-            hover:scale-110 transition-all duration-300 active:scale-75
-            border-darkBrown  text-darkBrown font- shadow-2xl rounded-xl mt-6
-            dark:stripes-dark dark:text-lightYellow  
-            
-            ' >Resume</button>
+
+            <Link href="/resume.pdf" download >
+              <button
+              className=' w-40 h-14 font-Poppins focus:outline-none  bg-darkYellow stripes border
+              hover:scale-110 transition-all duration-300 active:scale-75
+              border-darkBrown  text-darkBrown font- shadow-2xl rounded-xl mt-6
+              dark:stripes-dark dark:text-lightYellow
+              ' >Resume</button>
+            </Link>
         
         </div>     
         <div className="  w-72 border-white md:w-[22rem] " style={{ clipPath: 
