@@ -37,5 +37,15 @@ export const projects = [
             github : "https://github.com/So8oS/tailwind_practice_meoowww"
 
         },
+        {
+            id : 4,
+            title :  "My Unsplash",
+            description :"This app allows you to store and access your favorite Unsplash pictures in one place.",
+            image :  "/myunsplash.png",
+            status :  "Done",
+            link : "https://so8os-unsplash.vercel.app/",
+            github : "https://github.com/So8oS/so8os-unsplash"
+        }
+
        
       ];
