@@ -5,7 +5,7 @@ export const projects = [
             description :"A tool for uploading and copying images to clipboard.",
             image :  "/image-uploader.png",
             status :  "Finished",
-            link : "https://image-uploader-ahmad.vercel.app/",
+            link : "https://so8os-image-uploader.vercel.app/",
             github : "https://github.com/So8oS/image-uploader-next"
         },
         {
