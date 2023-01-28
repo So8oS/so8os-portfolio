@@ -22,9 +22,9 @@ export const ProjectCard = ( props:projectCardProps) => {
      data-aos="fade-up"
      data-aos-offset="200"
      data-aos-delay="50"
-     data-aos-duration="1000"
-     data-aos-easing=" ease-in-out"
-     data-aos-mirror="true"
+     data-aos-duration="1100"
+     data-aos-easing="ease-in-out"
+     data-aos-mirror="false"
      data-aos-once="false"
      data-aos-anchor-placement="top-bottom"
      >

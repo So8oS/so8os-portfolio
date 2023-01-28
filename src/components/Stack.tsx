@@ -6,7 +6,7 @@ const Stack = () => {
 
 
   return (
-    <div className='flex flex-col justify-center items-center mb-12'
+    <div className='flex flex-col justify-center items-center mb-16'
     data-aos="fade-up"
     data-aos-offset="200"
     data-aos-delay="50"

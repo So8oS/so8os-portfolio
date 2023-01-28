@@ -6,9 +6,9 @@ import Link from 'next/link'
 const Intro = () => {
   return (
     <div className='flex flex-col-reverse justify-center items-center mb-10 
-    md:flex-row gap-16 md:mb-20 '
+    md:flex-row gap-16 md:mb-24 '
     data-aos="fade-up"
-     data-aos-offset="200"
+     data-aos-offset="500"
      data-aos-delay="50"
      data-aos-duration="1000"
      data-aos-easing=" ease-in-out"
@@ -26,7 +26,7 @@ const Intro = () => {
             </div> 
             <span className=' animate-bounce text-[1.5rem] md:text-[1.75rem] '>woooooooo</span>
 
-            <Link href="/resume.pdf" download >
+            <Link href="/resume.pdf" download   >
               <button
               className=' w-40 h-14 font-Poppins focus:outline-none  bg-darkYellow stripes border
               hover:scale-110 transition-all duration-300 active:scale-75

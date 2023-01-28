@@ -24,8 +24,8 @@ export const projects = [
             description :"A website for my friends cookie bussines that he sadly no longer runs(pixel art themed).", 
             image :  "/lekhalilecookies.png",
             status :  "I dont really know.",
-            link : "",
-            github : ""
+            link : "https://lekhalillecookies.netlify.app/",
+            github : "https://github.com/So8oS/le_khalil_le_cookies-V2"
         },
         {
             id : 3,

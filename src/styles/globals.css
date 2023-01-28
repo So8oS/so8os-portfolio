@@ -2,6 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
+ 
+body::-webkit-scrollbar {
+  display: none;
+}
+
+
+
+html{
+  scroll-behavior: smooth;
+  scrollbar-width: none;  
+}
+
+
 
 /* no user select */
 
