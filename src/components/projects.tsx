@@ -42,10 +42,20 @@ export const projects = [
             title :  "My Unsplash",
             description :"This app allows you to store and access your favorite Unsplash pictures in one place.",
             image :  "/myunsplash.png",
-            status :  "Done",
+            status :  "Finished",
             link : "https://so8os-unsplash.vercel.app/",
             github : "https://github.com/So8oS/so8os-unsplash"
-        }
+        },
+        {
+            id : 5,
+            title :  "Cat wiki",
+            description :"A website to browse cat breeds and know more about them.",
+            image :  "/catwiki.png",
+            status :  "Finished",
+            link : "https://catwiki-so8os.vercel.app/",
+            github : "https://github.com/So8oS/catwiki"
+        },
+
 
        
       ];

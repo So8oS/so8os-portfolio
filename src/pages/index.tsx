@@ -7,6 +7,9 @@ import { Contactus } from "../components/ContactUs";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Stack from "../components/Stack";
+import dynamic from 'next/dynamic'
+const Specs = dynamic(() => import('../components/ProjectList'), {ssr: false})
+
 
 const Home: NextPage = () => {
 const [theme, setTheme] = React.useState("light");
