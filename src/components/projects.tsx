@@ -60,9 +60,9 @@ export const projects = [
             title :  "SMDB",
             description :"A movie database where you can browse movies.",
             image :  "https://images.unsplash.com/photo-1536566482680-fca31930a0bd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=687&q=80",
-            status :  "in progress",
-            link : "",
-            github : ""
+            status :  "Finished",
+            link : "https://smdb-so8os.vercel.app",
+            github : "https://github.com/So8oS/smdb"
         },
 
 
