@@ -28,7 +28,7 @@ const Intro = () => {
 
             <Link href="/resume.pdf" download   >
               <button
-              className=' w-40 h-14 font-Poppins focus:outline-none  bg-darkYellow stripes border
+              className=' w-full md:w-40 h-14 font-Poppins focus:outline-none  bg-darkYellow stripes border
               hover:scale-110 transition-all duration-300 active:scale-75
               border-darkBrown  text-darkBrown font- shadow-2xl rounded-xl mt-6
               dark:stripes-dark dark:text-lightYellow
