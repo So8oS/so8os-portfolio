@@ -21,7 +21,7 @@ const Intro = () => {
 
             <span className=' text-[1.5rem] md:text-[1.75rem]'> Helloo, I&apos;m Ahmad </span>
             <div className='flex flex-col animate-pulse'>
-                <span className='text-6xl font-bold md:text-7xl  '>Front-end</span>
+                <span className='text-6xl font-bold md:text-7xl  '>Full Stack</span>
                 <span className='text-6xl font-bold md:text-7xl  '>Developer</span>
             </div> 
             <span className=' animate-bounce text-[1.5rem] md:text-[1.75rem] '>woooooooo</span>
