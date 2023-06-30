@@ -40,6 +40,7 @@ const Stack = () => {
           alt="Typescript"
         />
         <img className=" w-32 md:w-44" src="/Icons/prisma.svg" alt="prisma" />
+        <img className=" w-32 md:w-44" src="/Icons/vercel.svg" alt="vercel" />
         <img className=" w-32 md:w-44" src="/Icons/csharp.svg" alt="C#" />
       </div>
     </div>
