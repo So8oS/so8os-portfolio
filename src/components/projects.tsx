@@ -60,7 +60,7 @@ export const projects = [
             title :  "Le Khalil Le Cookies",
             description :"A website for my friends cookie bussines that he sadly no longer runs(pixel art themed).", 
             image :  "/lekhalilecookies.png",
-            status :  "Almost Finished",
+            status :  "Finished",
             link : "https://lekhalillecookies.ahmadothman.com/",
             github : "https://github.com/So8oS/le_khalil_le_cookies_v3"
         },
