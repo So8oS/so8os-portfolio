@@ -43,7 +43,7 @@ export const projects = [
     description: "A website to browse cat breeds and know more about them.",
     image: "/catwiki.png",
     status: "Finished",
-    link: "https://catwiki.ahmadothman.com/",
+    link: "https://catwiki-so8os.vercel.app/",
     github: "https://github.com/So8oS/catwiki",
   },
   {
@@ -52,7 +52,7 @@ export const projects = [
     description: "A movie database where you can browse movies.",
     image: "/smdb.png",
     status: "Finished",
-    link: "https://smdb.ahmadothman.com/",
+    link: "https://smdb-so8os.vercel.app",
     github: "https://github.com/So8oS/smdb",
   },
   {
@@ -61,18 +61,8 @@ export const projects = [
     description:
       "A website for my friends cookie bussines that he sadly no longer runs(pixel art themed).",
     image: "/lekhalilecookies.png",
-    status: "Finished",
-    link: "https://lekhalillecookies.ahmadothman.com/",
+    status: "Almost Finished",
+    link: "",
     github: "https://github.com/So8oS/le_khalil_le_cookies_v3",
-  },
-  {
-    id: 7,
-    title: "Ancient Gamer",
-    description:
-      "A website for my social media/Youtube page Ancient Gamer which has the content a long games.",
-    image: "/ancientgamer.png",
-    status: "Finished",
-    link: "https://www.ancientgamer.net/",
-    github: "",
   },
 ];
