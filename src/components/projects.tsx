@@ -73,6 +73,6 @@ export const projects = [
     image: "/ancientgamer.png",
     status: "Finished",
     link: "https://www.ancientgamer.net/",
-    github: "",
+    github: "https://github.com/So8oS/ancient_gamer",
   },
 ];
