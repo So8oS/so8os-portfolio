@@ -69,10 +69,20 @@ export const projects = [
     id: 7,
     title: "Ancient Gamer",
     description:
-      "A website for my social media/Youtube page Ancient Gamer which has the content a long games.",
+      "A website for my social media/Youtube page Ancient Gamer which has the content along with the games.",
     image: "/ancientgamer.png",
     status: "Finished",
     link: "https://www.ancientgamer.net/",
-    github: "",
+    github: "https://github.com/So8oS/ancient_gamer",
+  },
+  {
+    id: 8,
+    title: "Foodie",
+    description:
+      "A social media food review app where reviews are only videos. a place to go to when you dont know what to eat.",
+    image: "/foodie.png",
+    status: "Ongoing",
+    link: "",
+    github: "https://github.com/So8oS/foodie",
   },
 ];
