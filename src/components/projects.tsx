@@ -86,7 +86,7 @@ export const projects = [
     github: "https://github.com/So8oS/foodie",
   },
   {
-    id: 8,
+    id: 9,
     title: "CVSCO",
     description:
       "A simpler VSCO knockoff (cheaper vsco). Photo sharing platform.",
