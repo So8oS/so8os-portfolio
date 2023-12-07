@@ -85,4 +85,14 @@ export const projects = [
     link: "",
     github: "https://github.com/So8oS/foodie",
   },
+  {
+    id: 8,
+    title: "CVSCO",
+    description:
+      "A simpler VSCO knockoff (cheaper vsco). Photo sharing platform.",
+    image: "/cvscopic.png",
+    status: "Finished",
+    link: "https://cvsco-so8os.vercel.app/",
+    github: "",
+  },
 ];
