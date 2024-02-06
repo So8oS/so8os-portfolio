@@ -5,8 +5,7 @@ import Link from "next/link";
 const Intro = () => {
   return (
     <div
-      className="mb-10 flex flex-col-reverse items-center justify-center 
-    gap-16 md:mb-24 md:flex-row "
+      className="mb-10 flex flex-col-reverse items-center justify-center gap-16 md:mb-24 md:flex-row "
       data-aos="fade-up"
       data-aos-offset="500"
       data-aos-delay="50"
@@ -22,8 +21,8 @@ const Intro = () => {
           Helloo, I&apos;m Ahmad{" "}
         </span>
         <div className="flex animate-pulse flex-col">
-          <span className="text-6xl font-bold md:text-7xl  ">Full Stack</span>
-          <span className="text-6xl font-bold md:text-7xl  ">Developer</span>
+          <span className="text-6xl font-bold md:text-7xl">Full Stack</span>
+          <span className="text-6xl font-bold md:text-7xl">Developer</span>
         </div>
 
         <Link href="/resume.pdf" download>
@@ -42,7 +41,6 @@ const Intro = () => {
         className="  w-72 border-white md:w-[22rem] "
         style={{
           clipPath:
-            // 'polygon(50% 0%, 80% 10%, 100% 1%, 96% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%)'
             "polygon(50% 0, 80% 10%, 100% 0, 100% 75%, 50% 100%, 0 75%, 0% 25%, 0 0, 20% 10%)",
         }}
       >

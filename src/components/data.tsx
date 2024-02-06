@@ -96,3 +96,15 @@ export const projects = [
     github: "",
   },
 ];
+
+export const techStack = [
+  { name: "React JS", src: "/Icons/react.svg" },
+  { name: "Next JS", src: "/Icons/next.svg" },
+  { name: "CSS", src: "/Icons/css.svg" },
+  { name: "Tailwind CSS", src: "/Icons/tailwind.svg" },
+  { name: "Javascript", src: "/Icons/javascript.svg" },
+  { name: "Typescript", src: "/Icons/typescript.svg" },
+  { name: "Prisma", src: "/Icons/prisma.svg" },
+  { name: "Vercel", src: "/Icons/vercel.svg" },
+  { name: "C#", src: "/Icons/csharp.svg" },
+];

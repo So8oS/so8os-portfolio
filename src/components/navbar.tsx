@@ -1,36 +1,62 @@
-import React from 'react'
-import {AiOutlineInstagram, AiOutlineLinkedin, AiFillGithub} from 'react-icons/ai'
+import React from "react";
+import {
+  AiOutlineInstagram,
+  AiOutlineLinkedin,
+  AiFillGithub,
+} from "react-icons/ai";
 import { MdDarkMode } from "react-icons/md";
 import { BsFillSunFill } from "react-icons/bs";
 
-interface NavbarProps{
+interface NavbarProps {
   handleThemeSwitch: () => void;
-  theme: string; 
+  theme: string;
 }
 
-const Navbar = (props:NavbarProps) => {
+const socialLinks = [
+  {
+    id: "github",
+    href: "https://github.com/So8oS",
+    Icon: AiFillGithub,
+  },
+  {
+    id: "instagram",
+    href: "https://www.instagram.com/don_so8os/",
+    Icon: AiOutlineInstagram,
+  },
+  {
+    id: "linkedin",
+    href: "https://www.linkedin.com/in/ahmadothman2000",
+    Icon: AiOutlineLinkedin,
+  },
+];
+
+const Navbar = ({ handleThemeSwitch, theme }: NavbarProps) => {
+  const iconClassName =
+    "h-6 w-6 text-darkBlue hover:text-gray-500 dark:text-[#FDECFB] dark:hover:text-gray-500 cursor-pointer";
   return (
-    <div className='flex justify-between font-Poppins w-full mb-12  md:mb-24'>
-        <span className='font-semibold  cursor-pointer' >Ahmad Othman</span>
-        {
-          props.theme === 'dark' ?
-          <BsFillSunFill className=' cursor-pointer w-6 h-6 text-darkBlue  dark:text-[#FDECFB] dark:hover:text-gray-500' onClick={props.handleThemeSwitch} />
-          :
-          <MdDarkMode className='cursor-pointer w-6 h-6 text-darkBlue  dark:text-[#FDECFB] hover:text-gray-500 dark:hover:text-gray-500' onClick={props.handleThemeSwitch} />
-          
-        }
-        
-        <div className='flex items-center gap-2'>
-            <a href="https://github.com/So8oS" className='text-darkBlue dark:text-[#FDECFB] hover:text-gray-500 dark:hover:text-gray-500' rel="noreferrer" target="_blank" ><AiFillGithub  className=' w-6 h-6' /></a>
-            <a href="https://www.instagram.com/don_so8os/" className='text-darkBlue dark:text-[#FDECFB] hover:text-gray-500 dark:hover:text-gray-500' rel="noreferrer" target="_blank"><AiOutlineInstagram className=' w-6 h-6' /></a>
-            <a href="https://www.linkedin.com/in/ahmad-othman-422117172/" className='text-darkBlue dark:text-[#FDECFB] hover:text-gray-500 dark:hover:text-gray-500' rel="noreferrer" target="_blank"><AiOutlineLinkedin className=' w-6 h-6'/></a>
-        </div>
+    <div className="mb-12 flex w-full justify-between font-Poppins md:mb-24">
+      <span className="cursor-pointer font-semibold">Ahmad Othman</span>
+      {theme === "dark" ? (
+        <BsFillSunFill className={iconClassName} onClick={handleThemeSwitch} />
+      ) : (
+        <MdDarkMode className={iconClassName} onClick={handleThemeSwitch} />
+      )}
 
-
-        
-
+      <div className="flex items-center gap-2">
+        {socialLinks.map(({ id, href, Icon }) => (
+          <a
+            key={id}
+            href={href}
+            className={iconClassName}
+            rel="noreferrer"
+            target="_blank"
+          >
+            <Icon className="h-6 w-6" />
+          </a>
+        ))}
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Navbar
+export default Navbar;

@@ -14,10 +14,7 @@ interface projectCardProps {
 export const ProjectCard = (props: projectCardProps) => {
   return (
     <div
-      className=" flex h-[25rem]  w-[20rem] flex-col items-center  justify-center gap-3 rounded-md 
-     transition-all
-     duration-500 md:w-[23rem] md:hover:scale-110 
-     "
+      className="flex h-[25rem]  w-[20rem] flex-col items-center  justify-center gap-3 rounded-md transition-all duration-500 md:w-[23rem] md:hover:scale-110"
       data-aos="fade-up"
       data-aos-offset="200"
       data-aos-delay="50"
