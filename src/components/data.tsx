@@ -92,7 +92,7 @@ export const projects = [
       "A simpler VSCO knockoff (cheaper vsco). Photo sharing platform.",
     image: "/cvscopic.png",
     status: "Finished",
-    link: "https://cvsco-so8os.vercel.app/",
+    link: "https://cvsco.ahmadothman.com/",
     github: "",
   },
 ];
